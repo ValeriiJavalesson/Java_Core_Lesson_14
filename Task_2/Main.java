@@ -23,10 +23,6 @@ public class Main {
 			showMenu();
 			input = scan.next();
 			switch (input) {
-			case "11": {
-				showCommodity(gifts);
-				break;
-			}
 			case "1": {
 				System.out.println("Введіть назву товару");
 				String name = scan.next();
